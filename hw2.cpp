@@ -29,3 +29,11 @@ void multiplicationTable() { // Multiplication table generator
         }
     }
 }
+void drawTriangle(char ch){ // Triangle drawing function
+    for(int i=ch; i>='a'; i--){
+        for(int j=i; j<=ch; j++){
+            printf("%c", j);
+        }
+        printf("\n");
+    }
+}
